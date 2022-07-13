@@ -6,7 +6,7 @@ In this challenge, I’m going to create a summary DataFrame to calculate total 
 Data source: city_data.csv, ride_data.csv<br/>
 Software: Python 3.7.6   Jupyter Notebook 6.4.8
 ## PyBer Analysis Results
-1.Create a summary DataFrame to calculate total rides, total drivers and total fares as well as average fares of each city type:
+1.Create a summary DataFrame to calculate total rides, total drivers and total fares as well as average fares of each city type:<br/>
 ![pyber summary](https://user-images.githubusercontent.com/107179765/178158831-73fd33e9-1492-452e-ac64-7a7b03f5e085.png)<br/>
 From the PyBer summary DataFrame, we can see that:
 - Urban cities have the highest total rides and total drivers while rural cities have the lowest total rides and total drivers, which means urban cities have greatest demands on ride-sharing than other two city types. 
@@ -21,7 +21,7 @@ From the line graph, we can see that:
 - The weekly fares of rural cities are at the range: $0-500. The weekly fares of suburban cities are at the range: $500-1500. The weekly fares of urban cities are at the range: $1500-2500. Urban cities have the highest weekly fares, while rural cities have the lowest weekly fares. The weekly fares of urban cities and Suburban cities is 3+ times and 2+ times higher than rural cities.
 - The trends of the total fares by each city type almost have the same ups and downs.
 ## PyBer Analysis Summary
-Based on the results, I’ll offer three business recommendations to the CEO for addressing any disparities among the city types:
+Based on the results, I’ll offer some business recommendations to the CEO for addressing any disparities among the city types:
 1. While the total rides are higher in urban markets, the average fares show that suburban and rural markets have a great demands that can be met with more drivers. Since the number of total drivers(2,405) is much greater than the number of total rides(1,625) in urban cities, I recommend researching ways to incentivize drivers away from urban markets and toward to rural / suburban markets to help balance the discrepancy. 
 2. Weekly rides per driver ratio could be very helpful in tracking their effectiveness. Surprisingly, current rides per driver ratios are more in rural areas than in urban areas. This indicates that there are more drivers available in urban areas.
 3. The multiple-line graph shows at least one very clear surge in late February in each city type. Optimizing price by that time will allow more profit for Pyber company and its drivers.
